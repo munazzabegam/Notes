@@ -31,12 +31,14 @@ section {
 
 .container h2 {
     font-size: 32px;
+    font-weight: bold;
     text-align: center;
     background-color: transparent;
     padding: 20px;
     color: #fff;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #9526F1;
+    /* text-shadow: 2px 2px 4px #9526F1; */
+    text-shadow: 2px 2px 4px #2a292c;
 }
 
 .subjects {
@@ -59,7 +61,8 @@ section {
 .subjects ul li a {
     text-decoration: none;
     display: block;
-    background-color: #9526F1;
+    /* background-color: #9526F1; */
+    background-color:#A268D9;
     color: #fefefe;
     padding: 15px 25px;
     border-radius: 50px;
@@ -67,7 +70,6 @@ section {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3) ;
     position: relative;
     z-index: 1;
@@ -76,9 +78,10 @@ section {
 
 
 .subjects ul li a:hover {
-    background-color:#8800F8;
-    color: #fff;
-    
+    /* background-color:#8800F8; */
+    background-color:#faf6f6;
+    color: #2a292c;
+    /* color: #fff; */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -91,7 +94,7 @@ footer {
     padding: 15px 23px;
     color: #dbc99c;
     text-align: center;
-    background: #A268D9;
+    background: #a268d9b2;
 }
 
 .footer-section {
@@ -110,9 +113,9 @@ footer {
 }
 
 .footer-section h4:hover {
-    color: #530e0e;
+    color: #2a292c;
 }
 
 .footer-section a:hover {
-    color: #530e0e;
+    color: #2a292c;
 }
