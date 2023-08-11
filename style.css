@@ -7,7 +7,7 @@
 body {
     height: 150vh;
     align-items: center;
-    background-color:#D8D1E7;
+    background-color:#fefefe;
     font-family: Arial, sans-serif;
     overflow: hidden;
 }
@@ -15,12 +15,10 @@ body {
 section {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .container {
-    background-image: linear-gradient(-135deg, #B18BD5, #CDBBF5,#914AD6);
+    background-color: #530e0e;
     width: 350px;
     height: 420px;
     border-radius: 20px;
@@ -31,14 +29,12 @@ section {
 
 .container h2 {
     font-size: 32px;
-    font-weight: bold;
     text-align: center;
-    background-color: transparent;
+    background-color: #000000;
     padding: 20px;
     color: #fff;
     margin-bottom: 20px;
-    /* text-shadow: 2px 2px 4px #9526F1; */
-    text-shadow: 2px 2px 4px #2a292c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .subjects {
@@ -61,8 +57,7 @@ section {
 .subjects ul li a {
     text-decoration: none;
     display: block;
-    /* background-color: #9526F1; */
-    background-color:#A268D9;
+    background-color: #530e0e;
     color: #fefefe;
     padding: 15px 25px;
     border-radius: 50px;
@@ -70,7 +65,7 @@ section {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3) ;
+    box-shadow: 0 4px 6px #530e0e;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -78,10 +73,9 @@ section {
 
 
 .subjects ul li a:hover {
-    /* background-color:#8800F8; */
-    background-color:#faf6f6;
-    color: #2a292c;
-    /* color: #fff; */
+    background-color: #000000;
+    color: #fff;
+    transform: translateY(-4px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -94,7 +88,7 @@ footer {
     padding: 15px 23px;
     color: #dbc99c;
     text-align: center;
-    background: #a268d9b2;
+    background: #8f8f96a6;
 }
 
 .footer-section {
@@ -104,18 +98,18 @@ footer {
 
 .footer-section h4 {
     font-size: 16px;
-    color: #fff;
+    color: #000000;
 }
 
 .footer-section a {
     padding: 8px;
-    color: #fff;
+    color: #000000;
 }
 
 .footer-section h4:hover {
-    color: #2a292c;
+    color: #530e0e;
 }
 
 .footer-section a:hover {
-    color: #2a292c;
+    color: #530e0e;
 }
