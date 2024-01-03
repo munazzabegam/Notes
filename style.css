@@ -22,7 +22,7 @@ section {
 .container {
     background-image: linear-gradient(-135deg, #B18BD5, #CDBBF5,#914AD6);
     width: 350px;
-    height: 420px;
+    height: 450px;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     position: relative;
